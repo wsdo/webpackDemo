@@ -13,6 +13,6 @@ var comments = [
 	{"author": "小雪", "date": "3 分钟前", "text": "出去玩啊！"}
 ];
 ReactDOM.render (
-    <CommentBox data={comments} />,
+    <CommentBox url="./commonts.json"/>,
     document.getElementById('app')
 );

@@ -1,34 +1,4 @@
-{
-"name":"start",
-"Apache": {},
-"Font Awesome": {},
-"Semantic-ui": {
-"categories": [
-"web-frameworks"
-],
-"confidence": 30,
-"version": ""
-},
-"WordPress": {
-"categories": [
-"cms",
-"blogs"
-],
-"confidence": 100,
-"version": " 4.4.3"
-},
-"jQuery": {
-"categories": [
-"javascript-frameworks"
-],
-"confidence": 100,
-"version": "1.8.2"
-},
-"PHP": {
-"categories": [
-"programming-languages"
-],
-"confidence": 100,
-"version": ""
-}
-}
+[
+	{"author": "王树东","date": "5 分钟前", "text": "天气不错啊！"},
+	{"author": "小雪", "date": "3 分钟前", "text": "出去玩啊！"}
+]
