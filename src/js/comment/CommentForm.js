@@ -3,9 +3,15 @@
 import React from 'react';
 
 class CommentForm extends React.Component {
+	handleSubmit(event){
+		event.preventDefault();
+		console.log('提交');
+	}
+
+
 	render() {
 		return (
-			<form className = "ui reply form">
+			<form className = "ui reply form" onSubmit={this.handleSubmit}>
 				<div className="field">
 					<input type="text" placeholder="姓名" />
 				</div>
