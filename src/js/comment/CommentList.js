@@ -12,7 +12,6 @@ class CommentList extends React.Component {
 				</Comment>
 			)
 		});
-		console.log(this.props.data);
 		return (
 			<div> 
 				{commentNodes}
