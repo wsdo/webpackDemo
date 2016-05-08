@@ -1,0 +1,21 @@
+{
+  "name": "webpack_stark",
+  "description": "",
+  "main": "gulpfile.js",
+  "authors": [
+    "fwon"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/wshudong/webpackDemo",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "js/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.3"
+  }
+}
