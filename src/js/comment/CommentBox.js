@@ -2,7 +2,7 @@
 * @Author: wshudong
 * @Date:   2016-05-07 08:51:28
 * @Last Modified by:   wshudong
-* @Last Modified time: 2016-05-08 18:22:44
+* @Last Modified time: 2016-05-08 18:26:01
 */
 
 'use strict';
@@ -15,6 +15,11 @@ class CommentBox extends React.Component {
     constructor(props) {
         super(props);
         this.state = {data:[]};
+        this.getComments();
+        setInterval(() => this.getComments(),5000);
+    }
+
+    getComments(){
         $.ajax({
             url:this.props.url,
             type:"get",
